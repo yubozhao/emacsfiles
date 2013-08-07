@@ -24,11 +24,6 @@
 (slime-setup  '(slime-repl slime-asdf slime-fancy slime-banner))
 ;;; END
 
-;; On the fly syntax checking
-(require 'flycheck)
-(global-flycheck-mode)
-(setq flycheck-highlighting-mode 'lines)
-
 ;; Configure whitespace settings to display when we are over 80chars
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 (setq whitespace-line-column 79)
@@ -55,3 +50,15 @@
 ;
 ; stop creating those #autosave# files
 (setq auto-save-default nil)
+
+; load auto complete mode
+; (global-auto-complete-mode t)
+(setq ac-source-yasnippet nil)
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20130724.1750/dict")
+(ac-config-default)
+
+
+; yasnippet
+(require 'yasnippet)
+(yas/global-mode t)
