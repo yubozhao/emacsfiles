@@ -62,3 +62,10 @@
 ; yasnippet
 (require 'yasnippet)
 (yas/global-mode t)
+
+; exec-path-from-shell stuff
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
+
+; js2 mode
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))

@@ -8,8 +8,10 @@
 	     (2 2 3)))
 	   "Ruby from Emacs [github]" tar])
  (zoom-frm .
-	   [(20130724 16)
-	    ((frame-cmds
+	   [(20130807 1542)
+	    ((frame-fns
+	      (0))
+	     (frame-cmds
 	      (0)))
 	    "Commands to zoom frame font size. [wiki]" single])
  (znc .
@@ -332,8 +334,8 @@
 	   [(20110401 823)
 	    nil "Persistent Undo History for GNU Emacs [github]" single])
  (undo-tree .
-	    [(20130614 1632)
-	     nil "No description available. [git]" single])
+	    [(20130807 1250)
+	     nil "Treat undo history as a tree [git]" single])
  (underwater-theme .
 		   [(20120615 1149)
 		    nil "A gentle, deep blue color theme [github]" single])
@@ -1101,7 +1103,7 @@
       [(20120928 2154)
        nil "Recursive Descent Parser library [github]" single])
  (rbenv .
-	[(20130805 907)
+	[(20130807 907)
 	 nil "Emacs integration for rbenv [github]" single])
  (rase .
        [(20120928 2345)
@@ -1222,7 +1224,7 @@
 	[(20130324 1305)
 	 nil "Visual Popup User Interface [github]" single])
  (pophint .
-	  [(20130806 212)
+	  [(20130807 2053)
 	   ((popup
 	     (0 5 0))
 	    (log4e
@@ -1343,6 +1345,13 @@
 	     ((web
 	       (0 3 6)))
 	     "paste text to KDE's pastebin service [github]" single])
+ (password-vault .
+		 [(20130807 942)
+		  ((cl-lib
+		    (0 2))
+		   (emacs
+		    (24)))
+		  "A Password manager for Emacs. [github]" single])
  (parenface .
 	    [(20091203 1917)
 	     nil "Provide a face for parens in lisp modes. [github]" single])
@@ -1449,9 +1458,9 @@
 	      (0 1)))
 	    "Blog from Org mode to wordpress [github]" tar])
  (org-trello .
-	     [(20130806 1644)
+	     [(20130807 1454)
 	      ((org
-		(7 9 2))
+		(8 0 7))
 	       (dash
 		(1 4 0))
 	       (request
@@ -1643,7 +1652,7 @@
 		     (9)))
 		   "decompilation extension for nrepl.el [github]" single])
  (nrepl .
-	[(20130802 739)
+	[(20130807 1517)
 	 ((clojure-mode
 	   (2 0 0))
 	  (cl-lib
@@ -2411,8 +2420,8 @@
 	  [(20130207 2102)
 	   nil "Convert buffer text and decorations to HTML. [git]" single])
  (html-script-src .
-		  [(20121008 1907)
-		   nil "Insert <script ...> tags for popular JavaScript libraries [github]" tar])
+		  [(20120403 2015)
+		   nil "Insert <script src=\"..\"> for popular JavaScript libraries [github]" single])
  (ht .
      [(20130515 1418)
       nil "The missing hash table library for Emacs [github]" single])
@@ -2930,7 +2939,7 @@
 	   [(20130423 2204)
 	    nil "a front-end for ack [github]" tar])
  (fuel .
-       [(20130805 1116)
+       [(20130807 1835)
 	((cl-lib
 	  (0 2))
 	 (emacs
@@ -3140,7 +3149,7 @@
 	 (0 3)))
        "fuzzy matching with good sorting [github]" single])
  (floobits .
-	   [(20130805 1800)
+	   [(20130807 1641)
 	    ((json
 	      (1 2))
 	     (highlight
@@ -3190,7 +3199,7 @@
 		       [(20120716 1655)
 			nil "Find files in a project quickly. [github]" single])
  (fill-column-indicator .
-			[(20130126 1540)
+			[(20130807 919)
 			 nil "Graphically indicate the fill column [github]" tar])
  (figlet .
 	 [(20120601 1515)
@@ -3343,10 +3352,8 @@
 	 [(20130701 1012)
 	  nil "Erlang major mode [github]" tar])
  (ergoemacs-mode .
-		 [(20130806 1538)
-		  ((org-cua-dwim
-		    (0 5)))
-		  "Emacs mode based on common modern software interface and ergonomics. [github]" tar])
+		 [(20130807 707)
+		  nil "No description available. [github]" tar])
  (erefactor .
 	    [(20130521 1838)
 	     nil "Emacs-Lisp refactoring utilities [github]" single])
@@ -3539,8 +3546,8 @@
 	  [(20121018 304)
 	   nil "ruby's rspec like syntax test frame work [github]" single])
  (el-mock .
-	  [(20121004 2057)
-	   nil "Tiny Mock and Stub framework in Emacs Lisp [wiki]" single])
+	  [(20130806 2248)
+	   nil "Tiny Mock and Stub framework in Emacs Lisp [github]" single])
  (el-autoyas .
 	     [(20120918 817)
 	      nil "Automatically create Emacs-Lisp Yasnippets [github]" tar])
@@ -3605,7 +3612,7 @@
 	    (0 0 2)))
 	  "Cucumber for Emacs. [github]" tar])
  (ecb .
-      [(20130406 1406)
+      [(20130807 1822)
        nil "a code browser for Emacs [github]" tar])
  (ebib .
        [(20130517 2212)
@@ -3770,7 +3777,7 @@
 		    (20120826)))
 		  "look up dictionaries on the Internet [svn]" tar])
  (desktop-registry .
-		   [(20130604 157)
+		   [(20130807 2227)
 		    nil "Keep a central registry of desktop files [git]" single])
  (delim-kill .
 	     [(20100517 820)
@@ -3814,7 +3821,7 @@
 	 [(20130807 32)
 	  nil "D Programming Language mode for (X)Emacs [github]" single])
  (cyberpunk-theme .
-		  [(20130515 1255)
+		  [(20130807 1135)
 		   nil "Cyberpunk Color Theme [github]" single])
  (cus-edit+ .
 	    [(20130723 2245)
@@ -4025,7 +4032,7 @@
 		       [(20100310 1348)
 			nil "cursor stays vertically centered [wiki]" single])
  (cask .
-       [(20130806 2048)
+       [(20130807 958)
 	nil "Emacs dependency management made easy [github]" tar])
  (capture .
 	  [(20130710 942)
