@@ -15,13 +15,8 @@
 ;;; END
 
 ;;; Slime
-(add-to-list 'load-path "/opt/local/share/emacs/site-lisp/slime")
-(setq slime-lisp-implementations
-           `((sbcl ("/opt/local/bin/sbcl"))
-                    (abcl ("/opt/local/bin/abcl"))
-                           (clisp ("/opt/local/bin/clisp"))))
-(require 'slime)
-(slime-setup  '(slime-repl slime-asdf slime-fancy slime-banner))
+(load (expand-file-name "~/quicklisp/slime-helper.el"))
+(setq inferior-lisp-program "/usr/local/bin/sbcl")
 ;;; END
 
 ;; Configure whitespace settings to display when we are over 80chars

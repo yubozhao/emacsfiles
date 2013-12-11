@@ -5,3 +5,15 @@ code
 l
 clear
 ls -la
+code
+code eventedmind/emind-web/
+code eventedmind/emind-web
+code
+l
+cd
+ls
+ls -al
+kdrwx------   8 yubz86         staff      272 2013-10-04 12:41 Pictures
+clear
+source .baschrc
+exit
